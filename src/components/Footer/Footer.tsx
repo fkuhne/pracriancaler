@@ -3,7 +3,7 @@ import React from 'react';
 // A component that renders a footer with a text and logos
 function Footer() {
   // Set the style object for the footer
-  const style = {
+  const style: React.CSSProperties = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -19,13 +19,13 @@ function Footer() {
   };
 
   // Set the style object for the logos
-  const logoStyle = {
+  const logoStyle: React.CSSProperties = {
     width: '24px',
     height: '24px',
     margin: '6px',
   };
 
-  const textStyle = {
+  const textStyle: React.CSSProperties = {
     // Add the fontSize property with a smaller value
     fontSize: '12px',
     color: '#242424',

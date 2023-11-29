@@ -4,7 +4,7 @@ function Container(props: { children: any }) {
   const children = props.children;
 
   // Set the style object for the container
-  const style = {
+  const style: React.CSSProperties = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

@@ -3,7 +3,7 @@ import logo from '../../assets/pracriancaler_logo_150.png';
 function Logo(props: { size: any }) {
   const size = props.size;
 
-  const style = {
+  const style: React.CSSProperties = {
     width: size + 'px',
   };
 
