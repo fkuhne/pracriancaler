@@ -7,7 +7,7 @@ function Footer() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#e0e0e0',
+    backgroundColor: 'white',
     // Add the position property with a fixed value
     // Add the bottom property with a zero value
     bottom: 0,
